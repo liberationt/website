@@ -19,12 +19,12 @@ export default {
 </script>
 <style lang="scss" scope>
     .content{
-        min-height:calc(100vh - 60px);
+        min-height:calc(100vh - 45px);
         position: absolute;
-        top:60px;
+        top:45px;
         left: 0;
         right:0;
         background:#f0f3f6;
-        padding:20px 30px;
+        // padding:20px 30px;
     }
 </style>

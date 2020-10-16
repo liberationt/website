@@ -6,6 +6,16 @@ import { getToken, setToken, removeToken } from '@/utils/auth'
 Vue.use(VueRouter);
 
 const routes = [
+  {
+    path: "/",
+    component: Layout,
+    children:[
+      {
+          path: "/",
+          component: ()=>	import ('@/views/index')
+        },
+    ]
+  }
   // {
   //   path: "/login",
   //   name: "login",
